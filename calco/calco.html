@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>CALCULATRICE</title>
+    <script language="javascript" src="calco.js"></script>
+    <link rel="stylesheet" type="text/css" href="calco.css">
+</head>
+ <section class="test">
+<body>
+   
+        <div id="corps">
+            <div  id="ecran">
+            </div>
+            <div class="ecran" id="ecran1">
+            </div>
+            <div id="touches">
+                <button class="btr" onclick="on()" ondblclick="off()" id="A1">ON\OFF</button>
+                <button class="bte" onclick  id="A2">rac</button>
+                <button class="bte" onclick="reset()" id="A3">DEL</button>
+                <button class="bti" onclick="ans()">Ans</button>
+                <button class="btn" onclick="div()" id="A4">/</button>
+                <button class="bth">tan</button>
+                <button class="bth" onclick="cos()" ondblclick="sin()">cos/sin</button>
+                <button class="btk">(</button>
+                <button class="bth">)</button>
+                <button class="btn" onclick="fois()" id="A8">*</button>
+                <button class="btn" onclick="one()" id="A5">1</button>
+                <button class="btn" onclick="two()" id="A6">2</button>
+                <button class="btn" onclick="three()" id="A7">3</button>
+                <button class="btn" onclick="four()" id="A9">4</button>
+                <button class="btn" onclick="moins()" id="A12">-</button>
+                <button class="btn" onclick="five()" id="A10">5</button>
+                <button class="btn" onclick="six()" id="A11">6</button>
+                <button class="btn" onclick="seven()" id="A13">7</button>
+                <button class="btn" onclick="eight()" id="A14">8</button>
+                <button class="btn" onclick="plus()" id="A16">+</button>
+                <button class="btn" onclick="nine()" id="A15">9</button>
+                <button class="btn" onclick="zero()" id="A17">0</button>
+                <button class="btn" onclick="dot()" id="A18">.</button>
+                <button class="bto" onclick="egal()" id="A19">=</button>
+            </div>
+        </div>   
+   
+    <script type="text/javascript">
+        var style=document.getElementById("ecran1");
+        style.setAttribute("style" ,"background:gray");
+
+    </script>
+</body>
+ </section>
+</html>
